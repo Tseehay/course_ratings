@@ -1,0 +1,9 @@
+{% for notification in notifications %}
+    {% if not notification.is_read %}
+        <p><a href="{% url 'mark_notification_as_read' notification.id %}">{{ notification.message }}</a></p>
+    {% else %}
+        <p>{{ notification.message }}</p>
+    {% endif %}
+{% empty %}
+    <p>No notifications.</p>
+{% endfor %}
