@@ -1,0 +1,12 @@
+<!-- ratings/course_detail.html -->
+
+<h2>{{ course.title }}</h2>
+
+{% for rating in ratings %}
+  <p>User: {{ rating.user.username }}</p>
+  <p>Score: {{ rating.score }}</p>
+  <p>Review: {{ rating.review }}</p>
+  <hr>
+{% empty %}
+  <p>No ratings yet.</p>
+{% endfor %}

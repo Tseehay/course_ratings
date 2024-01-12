@@ -1,0 +1,14 @@
+<!-- ratings/rate_course.html -->
+
+<h2>Rate Course: {{ course.title }}</h2>
+
+<form method="POST" action="{% url 'rate_course' course.id %}">
+  {% csrf_token %}
+  <label for="score">Score:</label>
+  <input type="number" name="score" min="1" max="5" required>
+  <br>
+  <label for="review">Review:</label>
+  <textarea name="review"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
