@@ -22,11 +22,7 @@ This project is a Django-based web application that allows users to rate courses
 
 - **Django**: Web framework for backend development.
 - **Python**: Language used for server-side logic.
-- **SQLite/PostgreSQL**: Database management for storing course and user data.
-- **HTML/CSS/JavaScript**: Frontend technologies for user interface and interactivity.
-- **Bootstrap**: Frontend framework for responsive design.
 - **Django Channels**: Implementation of real-time notifications.
-- **Celery**: Task queue for handling asynchronous notifications.
 
 ## Getting Started
 
@@ -38,6 +34,7 @@ This project is a Django-based web application that allows users to rate courses
 ### Installation
 
 1. Clone the repository:
+for example:
    ```bash
    git clone https://github.com/tseehay/course-rating.git
    
