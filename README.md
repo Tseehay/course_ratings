@@ -39,7 +39,7 @@ This project is a Django-based web application that allows users to rate courses
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/django-course-rating.git
+   git clone https://github.com/tseehay/course-rating.git
    
 2. Navigate into the project directory:
 ```bash
